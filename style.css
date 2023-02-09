@@ -1,0 +1,161 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: black;
+}
+.navbar{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    z-index: 1000;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+}
+.navbar a {
+    padding: 2rem;
+    font-size: 2rem;
+    background: #1a1a1a;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    color: #fff;
+    text-align: center;
+    -webkit-transition: .2s linear;
+    transition: .2s linear;
+}
+.navbar a i {
+    color: crimson;
+    padding-right: 0.5rem;
+}
+.fa, .fas {
+    font-weight: 900;
+}
+.fa, .far, .fas {
+    font-family: "Font Awesome 5 Free";
+}
+.fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+.fa-user:before {
+    content: "\f007";
+}
+.fa-house:before {
+    content: "\f015";
+}
+.fa-address-book:before, .fa-contact-book:before {
+    content: "\f2b9";
+}
+section {
+    padding: 5rem 9%;
+}
+.home {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap:no wrap;
+    gap: 4rem;
+    min-height: calc(100vh - 6.5rem);
+}
+@media (max-width: 1200px) {
+section {
+    padding: 3rem 2rem;
+}
+}
+@media (max-width: 1200px){
+html {
+    font-size: 55%;
+}
+}
+.home .image {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 42rem;
+    flex: 1 1 42rem;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 42rem;
+    text-align: center;
+}
+.home .content {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 42rem;
+    flex: 1 1 42rem;
+}
+.home .content h3 {
+    color: #fff;
+    font-size: 4rem;
+    padding-bottom: 0.5rem;
+}
+.home .content span {
+    font-size: 3rem;
+    color: crimson;
+    padding: 0.5rem 0;
+    display: block;
+}
+.home .content p {
+    font-size: 1.5rem;
+    color: #aaa;
+    padding: 1rem 0;
+    line-height: 2;
+}
+.btn {
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background: crimson;
+    padding: 1.2rem;
+    font-size: 1.7rem;
+    color: #fff;
+    padding-left: 1.3rem;
+}
+a:hover{
+    cursor: pointer;
+    
+}
+.navbar a:hover {
+   
+    background-color: crimson;
+    height: 10rem;
+    
+
+    
+}
+
+
+.image img{
+    height: 450px;
+}
+.btn:hover{
+ width: 14rem;
+ height: 6rem;
+ font-size: 1.8em;
+ padding: 20px 20px;
+}
